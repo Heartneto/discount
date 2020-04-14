@@ -1,6 +1,6 @@
 package com.project.discount.listener;
 
-import com.project.discount.business.impl.ManagerFactory;
+import com.project.discount.business.impl.ManagerFactoryImpl;
 import com.project.discount.business.impl.manager.CategoriesManagerImpl;
 import com.project.discount.business.impl.manager.CustomerManagerImpl;
 import com.project.discount.rest.resource.AbstractResource;
@@ -12,7 +12,7 @@ public class DependencyInjectionListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce) {
         // Create Instance of ManagerFactory
-        ManagerFactory vManagerFactory = new ManagerFactory();
+        ManagerFactoryImpl vManagerFactory = new ManagerFactoryImpl();
 
         // Inject instance of CustomerManager in ManagerFactory
         vManagerFactory.setCustomerManager(new CustomerManagerImpl());

@@ -1,6 +1,6 @@
 package com.project.discount.business.impl.manager;
 
-import com.project.discount.business.contract.CategoriesManager;
+import com.project.discount.business.contract.manager.CategoriesManager;
 import com.project.discount.model.bean.categories.Categories;
 import com.project.discount.model.exception.NotFoundException;
 

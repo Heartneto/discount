@@ -1,4 +1,4 @@
-package com.project.discount.business.contract;
+package com.project.discount.business.contract.manager;
 
 import com.project.discount.model.bean.categories.Categories;
 import com.project.discount.model.exception.NotFoundException;

@@ -1,6 +1,6 @@
 package com.project.discount.rest.resource.customer;
 
-import com.project.discount.business.contract.CustomerManager;
+import com.project.discount.business.contract.manager.CustomerManager;
 import com.project.discount.model.bean.customer.Customer;
 import com.project.discount.model.exception.NotFoundException;
 import com.project.discount.rest.resource.AbstractResource;

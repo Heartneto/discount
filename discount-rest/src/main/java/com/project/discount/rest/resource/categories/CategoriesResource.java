@@ -1,6 +1,6 @@
 package com.project.discount.rest.resource.categories;
 
-import com.project.discount.business.contract.CategoriesManager;
+import com.project.discount.business.contract.manager.CategoriesManager;
 import com.project.discount.model.bean.categories.Categories;
 import com.project.discount.model.exception.NotFoundException;
 import com.project.discount.rest.resource.AbstractResource;
