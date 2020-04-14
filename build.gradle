@@ -26,7 +26,7 @@ subprojects {
             dependency 'org.apache.bval:bval-jsr:1.1.2'
             dependency 'org.apache.commons:commons-collections4:4.1'
             dependency 'org.apache.commons:commons-lang3:3.6'
-            dependency 'javax.servlet:servlet-api:3.1.0'
+            dependency 'javax.servlet:javax.servlet-api:3.1.0'
             dependency 'javax.ws.rs:javax.ws.rs-api:2.1'
             dependency 'commons-logging:commons-logging:1.2'
             dependency 'org.apache.logging.log4j:log4j-core:2.6.2'

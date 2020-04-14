@@ -2,25 +2,28 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount.iml" filepath="$PROJECT_DIR$/.idea/modules/discount.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-batch/discount.discount-batch.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-batch/discount.discount-batch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-batch/discount.discount-batch.main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-batch/discount.discount-batch.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-batch/discount.discount-batch.test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-batch/discount.discount-batch.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-business/discount.discount-business.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-business/discount.discount-business.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-business/discount.discount-business.main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-business/discount.discount-business.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-business/discount.discount-business.test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-business/discount.discount-business.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-consumer/discount.discount-consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-consumer/discount.discount-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-consumer/discount.discount-consumer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-consumer/discount.discount-consumer.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-consumer/discount.discount-consumer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-consumer/discount.discount-consumer.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-model/discount.discount-model.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-model/discount.discount-model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-model/discount.discount-model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-model/discount.discount-model.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-model/discount.discount-model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-model/discount.discount-model.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-technical/discount.discount-technical.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-technical/discount.discount-technical.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-technical/discount.discount-technical.main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-technical/discount.discount-technical.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-technical/discount.discount-technical.test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-technical/discount.discount-technical.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-webapp/discount.discount-webapp.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-webapp/discount.discount-webapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-webapp/discount.discount-webapp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-webapp/discount.discount-webapp.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-webapp/discount.discount-webapp.test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-webapp/discount.discount-webapp.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount.iml" filepath="$PROJECT_DIR$/.idea/modules/discount.iml" group="discount" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-batch/discount-batch.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-batch/discount-batch.iml" group="discount/discount-batch" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-batch/discount-batch_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-batch/discount-batch_main.iml" group="discount/discount-batch" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-batch/discount-batch_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-batch/discount-batch_test.iml" group="discount/discount-batch" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-business/discount-business.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-business/discount-business.iml" group="discount/discount-business" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-business/discount-business_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-business/discount-business_main.iml" group="discount/discount-business" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-business/discount-business_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-business/discount-business_test.iml" group="discount/discount-business" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-consumer/discount-consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-consumer/discount-consumer.iml" group="discount/discount-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-consumer/discount-consumer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-consumer/discount-consumer_main.iml" group="discount/discount-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-consumer/discount-consumer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-consumer/discount-consumer_test.iml" group="discount/discount-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-model/discount-model.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-model/discount-model.iml" group="discount/discount-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-model/discount-model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-model/discount-model_main.iml" group="discount/discount-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-model/discount-model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-model/discount-model_test.iml" group="discount/discount-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-rest.iml" group="discount/discount-rest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-rest/discount-rest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-rest/discount-rest_main.iml" group="discount/discount-rest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-rest/discount-rest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-rest/discount-rest_test.iml" group="discount/discount-rest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-technical/discount-technical.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-technical/discount-technical.iml" group="discount/discount-technical" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-technical/discount-technical_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-technical/discount-technical_main.iml" group="discount/discount-technical" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-technical/discount-technical_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-technical/discount-technical_test.iml" group="discount/discount-technical" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-webapp/discount-webapp.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-webapp/discount-webapp.iml" group="discount/discount-webapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-webapp/discount-webapp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-webapp/discount-webapp_main.iml" group="discount/discount-webapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discount-webapp/discount-webapp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discount-webapp/discount-webapp_test.iml" group="discount/discount-webapp" />
     </modules>
   </component>
 </project>

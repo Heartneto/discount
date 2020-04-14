@@ -2,6 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="discount-batch_main" target="1.8" />
+      <module name="discount-batch_test" target="1.8" />
+      <module name="discount-business_main" target="1.8" />
+      <module name="discount-business_test" target="1.8" />
+      <module name="discount-consumer_main" target="1.8" />
+      <module name="discount-consumer_test" target="1.8" />
+      <module name="discount-model_main" target="1.8" />
+      <module name="discount-model_test" target="1.8" />
+      <module name="discount-rest_main" target="1.8" />
+      <module name="discount-rest_test" target="1.8" />
+      <module name="discount-technical_main" target="1.8" />
+      <module name="discount-technical_test" target="1.8" />
+      <module name="discount-webapp_main" target="1.8" />
+      <module name="discount-webapp_test" target="1.8" />
       <module name="discount.discount-batch.main" target="1.8" />
       <module name="discount.discount-batch.test" target="1.8" />
       <module name="discount.discount-business.main" target="1.8" />

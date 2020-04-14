@@ -14,4 +14,5 @@ include 'discount-business'
 include 'discount-consumer'
 include 'discount-model'
 include 'discount-technical'
+include 'discount-rest'
 
