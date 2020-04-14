@@ -1,8 +1,8 @@
 package com.project.discount.listener;
 
-import com.project.discount.business.ManagerFactory;
-import com.project.discount.business.manager.CategoriesManager;
-import com.project.discount.business.manager.CustomerManager;
+import com.project.discount.business.impl.ManagerFactory;
+import com.project.discount.business.impl.manager.CategoriesManagerImpl;
+import com.project.discount.business.impl.manager.CustomerManagerImpl;
 import com.project.discount.rest.resource.AbstractResource;
 
 import javax.servlet.ServletContextEvent;
@@ -15,9 +15,9 @@ public class DependencyInjectionListener implements ServletContextListener {
         ManagerFactory vManagerFactory = new ManagerFactory();
 
         // Inject instance of CustomerManager in ManagerFactory
-        vManagerFactory.setCustomerManager(new CustomerManager());
+        vManagerFactory.setCustomerManager(new CustomerManagerImpl());
         //Inject instance of CategoriesManager in ManagerFactory
-        vManagerFactory.setCategoriesManager(new CategoriesManager());
+        vManagerFactory.setCategoriesManager(new CategoriesManagerImpl());
         // Inject instance of ManagerFactory in AbstractResource
         AbstractResource.setManagerFactory(vManagerFactory);
     }

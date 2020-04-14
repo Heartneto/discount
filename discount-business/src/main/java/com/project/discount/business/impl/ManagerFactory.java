@@ -1,7 +1,7 @@
-package com.project.discount.business;
+package com.project.discount.business.impl;
 
-import com.project.discount.business.manager.CategoriesManager;
-import com.project.discount.business.manager.CustomerManager;
+import com.project.discount.business.contract.CategoriesManager;
+import com.project.discount.business.contract.CustomerManager;
 
 public class ManagerFactory {
     private CustomerManager vCustomerManager;

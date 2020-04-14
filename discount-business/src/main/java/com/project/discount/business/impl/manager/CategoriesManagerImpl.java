@@ -1,18 +1,14 @@
-package com.project.discount.business.manager;
+package com.project.discount.business.impl.manager;
 
+import com.project.discount.business.contract.CategoriesManager;
 import com.project.discount.model.bean.categories.Categories;
 import com.project.discount.model.exception.NotFoundException;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class CategoriesManager {
-    /**
-     * Return the request categories
-     * @param pId the Categories id
-     * @return the {@link Categories}
-     * @throws NotFoundException if Categories is not found
-     */
+public class CategoriesManagerImpl implements CategoriesManager {
+    @Override
     public Categories getCategories(Integer pId) throws NotFoundException{
         if (pId < 1){
             throw new NotFoundException("Customer no found : ID = " + pId);
@@ -22,10 +18,7 @@ public class CategoriesManager {
         return vCategories;
     }
 
-    /**
-     * Return list of {@link Categories}
-     * @return list
-     */
+    @Override
     public List<Categories> getListCategories(){
         List<Categories> vList = new ArrayList<>();
         for (int i = 0; i < 9; i++){

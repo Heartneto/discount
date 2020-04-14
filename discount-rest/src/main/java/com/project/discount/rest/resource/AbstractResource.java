@@ -1,6 +1,6 @@
 package com.project.discount.rest.resource;
 
-import com.project.discount.business.ManagerFactory;
+import com.project.discount.business.impl.ManagerFactory;
 
 public abstract class AbstractResource {
     private static ManagerFactory vManagerFactory;
