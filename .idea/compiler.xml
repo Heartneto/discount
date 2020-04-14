@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="discount.discount-batch.main" target="1.8" />
+      <module name="discount.discount-batch.test" target="1.8" />
+      <module name="discount.discount-business.main" target="1.8" />
+      <module name="discount.discount-business.test" target="1.8" />
+      <module name="discount.discount-consumer.main" target="1.8" />
+      <module name="discount.discount-consumer.test" target="1.8" />
+      <module name="discount.discount-model.main" target="1.8" />
+      <module name="discount.discount-model.test" target="1.8" />
+      <module name="discount.discount-technical.main" target="1.8" />
+      <module name="discount.discount-technical.test" target="1.8" />
+      <module name="discount.discount-webapp.main" target="1.8" />
+      <module name="discount.discount-webapp.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
